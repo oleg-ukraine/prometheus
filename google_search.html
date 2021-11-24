@@ -2,11 +2,30 @@
 <html lang="en">
   <head>
     <title>Search</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="https://google.com/search">
-      <input type="text" name="q" />
-      <input type="submit" value="Google Search" />
-    </form>
+    <div class="group_butt_adv_img_search">
+      <a href="google_images.html"><input type="button" value="Зображення" /></a>
+      <a href="google_advanced_search.html"
+        ><input type="button" value="Розширений пошук"
+      /></a>
+      <a href="google_search.html"><input type="button" value="Пошук" /></a>
+    </div>
+    <div class="gs">
+      <img src="img/google_logo.png" width="270px" height="91px" alt="" />
+      <form class="form_search" action="https://google.com/search">
+       <input type="text" name="q" value="" placeholder="" />  
+        <div><center><input type="submit" name="btnK" value="Пошук Google" /> <input type="submit" name="btnI" value="Мені Пощастить!" /></center></div>
+       
+        <input type="hidden" name="source" value='hp'>
+        <input type="hidden" name='ei' value="mOKcYY3AHImoqtsPl42k6AE">
+        <input type="hidden" name="iflsig" value="ALs-wAMAAAAAYZzwqDk1w4Y164Ks0T6pzoMycfFh6zsE">
+        
+      </form>
+      </form>
+    </div>
   </body>
 </html>

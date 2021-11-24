@@ -2,11 +2,26 @@
 <html lang="en">
   <head>
     <title>Search</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="https://www.google.com.ua/imghp">
-      <input type="text" name="q" />
-      <input type="submit" value="Google Search" />
-    </form>
+    <div class="group_butt_adv_img_search">
+      <a href="google_advanced_search.html"
+        ><input type="button" value="Розширений пошук"
+      /></a>
+      <a href="google_search.html"><input type="button" value="Пошук" /></a>
+    </div>
+    <div class="gs">
+      <img src="img/google_logo.png" width="270px" height="91px" alt="" />
+      <form class="form_search" action="https://google.com/search">
+        <input type="text" name="q" value="" />
+        <input type="hidden" name="source" value="lnms" />
+        <input type="hidden" name="tbm" value="isch" />
+        <input type="hidden" name="sa" value="X" />
+        <div><input type="submit" value="Пошук зображень Google" /></div>
+      </form>
+    </div>
   </body>
 </html>

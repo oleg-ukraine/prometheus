@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="group_butt_adv_img_search">
+      <a href="google_images.html"
+        ><input type="button" value="Зображення"
+      /></a>
+
+      <a href="google_search.html"><input type="button" value="Пошук" /></a>
+    </div>
+    <div class="gs_adv">
+      <img src="img/google_logo.png" width="74px" height="24px" alt="" />
+      <!-- --------------------------------------------------------------------- -->
+      <div id="head_1">Розширений пошук</div>
+      <hr />
+      <div id="head_form">Знайти сторінки</div>
+      <form class="form_search_advanced" action="https://google.com/search">
+        <table id="search_table">
+          <tr>
+            <td>із усіма цими словами:</td>
+            <td><input type="text" name="as_q" value="" /></td>
+          </tr>
+          <tr>
+            <td>із словосполученням:</td>
+            <td><input type="text" name="as_epq" value="" /></td>
+          </tr>
+          <tr>
+            <td>із будь - яким з цих слів:</td>
+            <td><input type="text" name="as_oq" id="" /></td>
+          </tr>
+          <tr>
+            <td>без цих слів:</td>
+            <td><input type="text" name="as_eq" value="" /></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="rel">
+              <input
+                id="adv_s_b"
+                type="submit"
+                value="Розширений пошук Google"
+              />
+            </td>
+          </tr>
+        </table>
+
+        <input type="hidden" name="as_nlo" value="" />
+        <input type="hidden" name="as_nhi" value="" />
+        <input type="hidden" name="lr" value="" />
+        <input type="hidden" name="cr" value="" />
+        <input type="hidden" name="as_qdr" value="all" />
+        <input type="hidden" name="as_sitesearch" value="" />
+        <input type="hidden" name="as_occt" value="any" />
+        <input type="hidden" name="safe" value="images" />
+        <input type="hidden" name="as_filetype" value="" />
+        <input type="hidden" name="tbs" value="" />
+      </form>
+    </div>
+  </body>
+</html>
