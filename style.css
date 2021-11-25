@@ -115,3 +115,11 @@ hr {
 .var_of_query {
   padding-right: 10px;
 }
+#kartinki {
+  color: #4285f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  position: relative;
+  left: 115px;
+  top: -21px;
+}
