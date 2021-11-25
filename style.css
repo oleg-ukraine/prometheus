@@ -44,7 +44,8 @@ input[type='submit'] {
 .form_search input[type='text'] {
   padding-left: 15px;
 }
-.form_search input[type='text']:focus {
+.form_search input[type='text']:focus,
+.form_search_advanced input[type='text']:focus {
   color: #212529;
   background-color: #fff !important;
   border-color: #bdbdbd;
