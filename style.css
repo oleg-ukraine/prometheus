@@ -14,7 +14,6 @@
 }
 .form_search input[type='text'] {
   border-radius: 30px;
-  width: 580px;
   height: 40px;
   border: 1px solid #ccc;
   background: #ffffff !important;
@@ -36,9 +35,18 @@
 .form_search > div {
   margin-top: 30px;
 }
-@media (max-width: 600px) {
+@media (min-width: 800px) {
+  .form_search input[type='text'] {
+    width: 570px;
+  }
 }
-input[type='submit'] {
+@media (max-width: 799px) {
+  input[type='text'] {
+    width: 90%;
+  }
+}
+input[type='submit'],
+input[type='button'] {
   cursor: pointer;
 }
 .form_search input[type='text'] {
