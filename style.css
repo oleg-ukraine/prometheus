@@ -115,7 +115,8 @@ hr {
   }
 }
 @media (max-width: 899px) {
-  .form_search_advanced {
+  #search_table tr td.inp,
+  #search_table tr td.inp input {
     width: 90%;
   }
 }
