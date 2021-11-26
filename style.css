@@ -119,6 +119,9 @@ hr {
   #search_table tr td.inp input {
     width: 90%;
   }
+  #adv_s_b {
+    margin-right: 50px;
+  }
 }
 #adv_s_b {
   position: absolute;
