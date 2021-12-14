@@ -1,1 +1,1 @@
-This project about google search
+This project is about Google search
